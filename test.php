@@ -1,6 +1,5 @@
 <?php
-    $accessToken = "lyOtYfm7g7RbHi3vJ0yFy9gAuWKvBljpOqmB3TPmNTcU6aOVzuPmGQAMEdpZ93BmOiqvDS7AJCcOiF7wjhVPB7PbjLYV6ncRNb3e2r0MQ9lokONctZqtgaG0k8j/JaMqTKsW7z4WJ+66icXnnfrbewdB04t89/1O/w1cDnyilFU=
-";//copy Channel access token ??????????????????
+    $accessToken = "JChFIreN9I6mAxZqkKAc2WV77x7av/z7S2kZ91XGvtDvmLlpwjV5FSlmMkxZtQpCOiqvDS7AJCcOiF7wjhVPB7PbjLYV6ncRNb3e2r0MQ9nF9jojy1d4dAbfw7mrtsk0fur3O0eVt0uTNkBO3RPUCQdB04t89/1O/w1cDnyilFU=";//copy Channel access token ??????????????????
     
     $content = file_get_contents('php://input');
     $arrayJson = json_decode($content, true);

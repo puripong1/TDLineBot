@@ -1,5 +1,6 @@
 <?php
-    $accessToken = "vdee/1gbU7pS5ljLfRXHaZGglDLEfWXKlIYOOwQwi1AM2UIWk3oUQQ6NNWqofLksOiqvDS7AJCcOiF7wjhVPB7PbjLYV6ncRNb3e2r0MQ9k1ibgKbH0Z3ouivVoXkIE0LKITriB1pfTZGa/qesHRWgdB04t89/1O/w1cDnyilFU=";//copy Channel access token ??????????????????
+    $accessToken = "lyOtYfm7g7RbHi3vJ0yFy9gAuWKvBljpOqmB3TPmNTcU6aOVzuPmGQAMEdpZ93BmOiqvDS7AJCcOiF7wjhVPB7PbjLYV6ncRNb3e2r0MQ9lokONctZqtgaG0k8j/JaMqTKsW7z4WJ+66icXnnfrbewdB04t89/1O/w1cDnyilFU=
+";//copy Channel access token ??????????????????
     
     $content = file_get_contents('php://input');
     $arrayJson = json_decode($content, true);
@@ -16,7 +17,7 @@
         $arrayPostData['messages'][0]['type'] = "text";
         $arrayPostData['messages'][0]['text'] = "สวัสดีจ้า";
 		$arrayPostData['messages'][1]['type'] = "sticker";
-		$arrayPostData['messages'][1]['packageId'] = "11537";
+		$arrayPostData['mvdeeessages'][1]['packageId'] = "11537";
         $arrayPostData['messages'][1]['stickerId'] = "52002738";
         replyMsg($arrayHeader,$arrayPostData);
     }
